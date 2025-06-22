@@ -27,7 +27,7 @@ app.post("/api/dharm", async (req, res) => {
       },
       {
         headers: {
-          Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+          Authorization: `Bearer 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`,
           "Content-Type": "application/json",
         },
       }
