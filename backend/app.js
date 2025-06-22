@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const MODEL = "meta-llama/llama-3-70b-instruct";
+const MODEL = "google/gemini-2.0-flash-exp:free";
 
 app.post("/api/dharm", async (req, res) => {
   try {
