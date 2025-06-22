@@ -27,7 +27,7 @@ app.post("/api/dharm", async (req, res) => {
       },
       {
         headers: {
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer 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`,
           "Content-Type": "application/json",
         },
       }
