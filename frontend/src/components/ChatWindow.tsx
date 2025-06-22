@@ -17,7 +17,7 @@ const ChatWindow = () => {
     setIsLoading(true);
 
     try {
-      const res = await fetch("http://localhost:8000/api/dharm", {
+      const res = await fetch("https://dharmgpt.onrender.com/api/dharm", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userInput }),
